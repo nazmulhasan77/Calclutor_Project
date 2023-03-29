@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class Calclutor {
+public class Calculator {
     public static void main(String[] args) {
-        Calclutor calclutor = new Calclutor();
+        Calculator calculator = new Calculator();
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
         int b= sc.nextInt();

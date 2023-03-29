@@ -1,8 +1,10 @@
+import java.util.Scanner;
+
 public class Calclutor {
     public static void main(String[] args) {
 
-        //Calclutor calclutor = new Calclutor();
-        System.out.println(division(4,2));
+        Calclutor calclutor = new Calclutor();
+
     }
     public static double division(double a,double b){
         if(a==0 || b==0){
@@ -11,4 +13,11 @@ public class Calclutor {
             return a / b;
         }
     }
+
+    public static double multiplication(double a,double b){
+        return a*b;
+    }
+
 }
+
+
